@@ -1,0 +1,243 @@
+@charset "UTF-8";
+html{font-size: :100%;
+}
+body{
+  font-family: inherit;
+  line-height: 1.7;
+  color: #432;
+}
+a{
+  text-decoration: none;
+  text
+}
+img{
+  max-width:100%;
+}
+.logo{
+  width: 100px;
+  margin-top: 14px;
+}
+.main-nav{
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: upppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+.main-nav li{
+margin-left: 36px;
+}
+.main-nav a{
+  color: #432;
+}
+.main-nav a:hover{
+  color: #0bd;
+}
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper{
+  maxs-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+  padding-bottom: 0px;
+}
+/* home
+------------------------------------*/
+.home-content{
+  text-align: center;
+  margin-top: 10%
+}
+.home-content p{
+  font-size:1.125rem;
+  margin:10px 0 42px;
+}
+/*제목*/
+.page-title{
+  font-size: 5rem;
+  font-family: 'philosopher', serif;
+  text-transform: uppercase/capitalize;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+/*버튼*/
+.button{
+  font-size: 1.375rem;
+  background:  #d6c299;
+  color: #fff;
+  border-radius: 5px;
+  padding: 14px 35px;
+  margin: 15px;
+}
+.buttton:hover{
+  background:  #0090aa;
+}
+/*큰배경이미지*/
+.big-bg{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+#home{
+  background-image: url(images/main-bg.jpg);
+  min-height: 100vh;
+}
+#home .page-title{
+  text-transform: none;
+}
+#news. page-title{
+font-weight: bold;
+margin-top: 20px;
+}
+h2 a:link, a:visited, a:active{text-decoration: none;
+  color:#432
+}
+h2 a:hover{
+  color: #0bd;
+}
+h2 {
+  padding: 10px;
+  margin: 10px;
+}
+/*news------------------------------------------*/
+#news{
+  background-image: url(images/main-bg.jpg);
+height: 200px;
+margin-bottom:40px;
+}
+
+#news a:link, a:visited, a:hover a:active{
+  text-decoration: none;
+  color:#432
+  }
+  .wrapper h2{
+    font-weight: bold;
+
+  }
+  /*푸터
+  ---------------------*/
+  footer{
+    background: #432;
+    text-align: center;
+    padding: 10px 0;
+  }
+  footer p{
+    color: #fff;
+    font-size: 1.25rem
+  }
+/*본문내용*/
+article{
+  width: 74%;
+}
+
+/*사이드바*/
+aside{
+  width: 22%;
+}
+.news-contents{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.post-info{
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+.post-time{
+  background: #dcc8dc;
+  border-radius: 15%;
+  color: #6e5064;
+  width: 130px;
+  height: 80px;
+  font-size: 1.1rem;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 100PX;
+}
+.post-time span{
+  font-size: 1.1rem;
+  border-top: 1px rgba(255,255,255,.5) solid;
+  display: block;
+  width: 130px;
+  margin: 0 auto;
+}
+.post-title{
+  font-family: "나눔명조";
+ font-size: 2rem;
+ font-weight: normal;
+ margin-left: 200px;
+ margin-top: 0px;
+}
+article img{
+  margin-bottom: 1rem
+  ;
+  width: 1100px;
+  height: 800px;
+}
+
+.sub-title{
+  font-size: 1.375rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px #0bd solid;
+  font-weight: normal;
+  margin-top: 200px;
+}
+aside p{
+  padding: 12px 10px;
+}
+.sub-menu{
+  margin-botto: 60px;
+  list-style: none;
+  font-weight: bold;
+}
+.sub-menu li{
+  border-bottom: 1px #ddd solid;
+}
+.sub-menu a{
+  color: #432;
+  padding: 10px;
+  display: block;
+}
+.sub-menu a:hover{
+  color: #0bd;
+}
+span img{
+  width: 450px;
+  height: 450px;
+  margin-right: 10px;
+  font-weight: normal;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+.item{
+  background: #ffffff;
+}
+.item img{
+  width: 250px;
+  height: 270px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 30px 30px 30px 30px;
+
+}
+.page{
+  border: 0.1px;
+  border: solid;
+  border-radius: 15%;
+  background: #ffffff;
+  padding: 5px;
+  text-align: center;
+}
+.page a{
+
+}
