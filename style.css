@@ -2,7 +2,7 @@
 html{font-size: :100%;
 }
 body{
-  font-family: inherit;
+  font-family: monospace;
   line-height: 1.7;
   color: #432;
 }
@@ -15,6 +15,7 @@ img{
 }
 .logo{
   width: 100px;
+  height: 100px;
   margin-top: 14px;
 }
 .main-nav{
@@ -37,11 +38,12 @@ margin-left: 36px;
   display: flex;
   justify-content: space-between;
 }
+
 .wrapper{
-  maxs-width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 4%;
-  padding-bottom: 0px;
+
 }
 /* home
 ------------------------------------*/
@@ -53,14 +55,7 @@ margin-left: 36px;
   font-size:1.125rem;
   margin:10px 0 42px;
 }
-/*제목*/
-.page-title{
-  font-size: 5rem;
-  font-family: 'philosopher', serif;
-  text-transform: uppercase/capitalize;
-  font-weight: normal;
-  padding-bottom: 20px;
-}
+
 /*버튼*/
 .button{
   font-size: 1.375rem;
@@ -68,9 +63,8 @@ margin-left: 36px;
   color: #fff;
   border-radius: 5px;
   padding: 14px 35px;
-  margin: 15px;
 }
-.buttton:hover{
+.button:hover{
   background:  #0090aa;
 }
 /*큰배경이미지*/
@@ -86,20 +80,22 @@ margin-left: 36px;
 #home .page-title{
   text-transform: none;
 }
-#news. page-title{
+.page-title {
 font-weight: bold;
 margin-top: 20px;
+font-size: 60px;
 }
-h2 a:link, a:visited, a:active{text-decoration: none;
+p a:link, a:visited, a:active{text-decoration: none;
   color:#432
 }
-h2 a:hover{
+p a:hover{
   color: #0bd;
 }
-h2 {
+p {
   padding: 10px;
   margin: 10px;
 }
+s
 /*news------------------------------------------*/
 #news{
   background-image: url(images/main-bg.jpg);
@@ -113,27 +109,39 @@ margin-bottom:40px;
   }
   .wrapper h2{
     font-weight: bold;
-
   }
+
+
+
   /*푸터
   ---------------------*/
   footer{
     background: #432;
     text-align: center;
     padding: 10px 0;
-  }
+    }
   footer p{
     color: #fff;
-    font-size: 1.25rem
+    font-size: 1.25rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+  }
+  address p{
+    font-size: 1.25rem;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: monospace;
   }
 /*본문내용*/
 article{
-  width: 74%;
+  width: 73%;
 }
 
 /*사이드바*/
 aside{
-  width: 22%;
+  width: 23%;
+  margin-top: 10px;
 }
 .news-contents{
   display: flex;
@@ -142,15 +150,15 @@ aside{
 }
 .post-info{
   position: relative;
-  padding-top: 100px;
-  margin-bottom: 40px;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
 .post-time{
   background: #dcc8dc;
   border-radius: 15%;
   color: #6e5064;
   width: 130px;
-  height: 80px;
+  height: 60px;
   font-size: 1.1rem;
   text-align: left;
   position: absolute;
@@ -164,14 +172,20 @@ aside{
   border-top: 1px rgba(255,255,255,.5) solid;
   display: block;
   width: 130px;
-  margin: 0 auto;
+  height: 40px;
+  padding: 0px;
 }
 .post-title{
-  font-family: "나눔명조";
  font-size: 2rem;
  font-weight: normal;
  margin-left: 200px;
- margin-top: 0px;
+ margin-top: 40px;
+} p3{
+  font-size: 15px;
+  text-align: justify;
+}
+div.contaner{
+  align-content: flex-end;s
 }
 article img{
   margin-bottom: 1rem
@@ -181,11 +195,11 @@ article img{
 }
 
 .sub-title{
-  font-size: 1.375rem;
+  font-size: 1.395rem;
   padding: 0 8px 8px;
   border-bottom: 2px #0bd solid;
-  font-weight: normal;
-  margin-top: 200px;
+  font-weight: bold;
+  margin-top: 80px;
 }
 aside p{
   padding: 12px 10px;
@@ -194,6 +208,7 @@ aside p{
   margin-botto: 60px;
   list-style: none;
   font-weight: bold;
+  font-size: 1.1rem;
 }
 .sub-menu li{
   border-bottom: 1px #ddd solid;
@@ -223,7 +238,7 @@ span img{
 }
 .item img{
   width: 250px;
-  height: 270px;
+  height: 300px;
 }
 .grid{
   display: grid;
@@ -240,4 +255,119 @@ span img{
 }
 .page a{
 
+}
+.mmenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.menu{
+  border: 0.10;
+  border: solid black;
+  border-radius: 10%;
+  background-color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+/*모바일버전
+----------------------*/
+@media (max-width: 640px) {
+
+  h1{
+    color: #0bd;
+  }
+.big-bg{
+    height: 170;
+
+}
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+
+  .page-title{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 10px;
+   font-family: monospace;
+     margin-bottom: 7px;
+    }
+
+
+  /*header*/
+  .main-nav {
+    font-size: 0.8rem;
+    margin-top: 0px;
+    float: right;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+  .main-nav li{
+    margin: 0 22px;
+  }
+  /*home*/
+  .home-content{
+    margin-top: 20%;
+  }
+
+.page-header{
+  flex-direction: column;
+  align-items: center;
+  font-size: 5px;
+}
+/*news*/
+.news-contents{
+  flex-direction: column;
+}
+page-header .wrapper{
+  font-family: monospace;
+  text-align: center;
+}
+article img{
+  height: 300px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+article, aside{
+  width: 100%;
+}
+#news .page-title{
+  margin-top: 0px;
+  padding-top: 0px;
+
+}
+#news .big-bg{
+  margin-bottom: 0px;
+}
+aside: {
+  margin-top: 0px;
+}
+.sub-title{
+  margin-top: 30px;
+}
+.post-time{
+width: 100px;
+height: 44px;
+font-size: 0.8rem;
+}
+.post-time span{
+font-size:  0.8rem
+
+}
+.post-title{
+  font-size: 1.1rem;
+  padding-left: 150px;
+  margin-left: 0px;
+  margin-top: 50px;
+  text-align: left;
+}
+.item img{
+width: auto;
+height: 100px;
+}
 }
