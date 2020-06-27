@@ -1,5 +1,5 @@
 @charset "UTF-8";
-html{font-size: :100%;
+html{font-size: 100%;
 }
 body{
   font-family: monospace;
@@ -8,11 +8,9 @@ body{
 }
 a{
   text-decoration: none;
-  text
+  
 }
-img{
-  max-width:100%;
-}
+
 .logo{
   width: 100px;
   height: 100px;
@@ -180,17 +178,17 @@ aside{
  font-weight: normal;
  margin-left: 200px;
  margin-top: 40px;
-} p3{
+} 
+p3{
   font-size: 15px;
   text-align: justify;
 }
 div.contaner{
-  align-content: flex-end;s
+  align-content: flex-end;
 }
-article img{
-  margin-bottom: 1rem
-  ;
-  width: 1100px;
+.index2bg{
+  margin-bottom: 1rem;
+  width: 800px;
   height: 800px;
 }
 
@@ -205,7 +203,7 @@ aside p{
   padding: 12px 10px;
 }
 .sub-menu{
-  margin-botto: 60px;
+  margin-bottom: 60px;
   list-style: none;
   font-weight: bold;
   font-size: 1.1rem;
@@ -253,9 +251,7 @@ span img{
   padding: 5px;
   text-align: center;
 }
-.page a{
 
-}
 .mmenu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -344,7 +340,7 @@ article, aside{
 #news .big-bg{
   margin-bottom: 0px;
 }
-aside: {
+aside {
   margin-top: 0px;
 }
 .sub-title{
