@@ -187,6 +187,7 @@ div.contaner{
   align-content: flex-end;
 }
 .index2bg{
+  max-width: 100%;
   margin-bottom: 1rem;
   width: 800px;
   height: 800px;
